@@ -6,6 +6,14 @@ body {
   font-family: Lato, sans-serif;
 }
 
+header{
+  background-image: url("img/food-bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 0px;
+}
+
 nav {
   font-family: Gentium Book Basic, sans-serif;
 }
