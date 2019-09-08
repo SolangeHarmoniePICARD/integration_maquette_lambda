@@ -107,3 +107,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 8px !important;
   border-radius: 50%;
 }
+
+#btn-gold{
+  background-color: #c90;
+}
+#btn-gold:hover{
+  background-color: #a37a00;
+  color: white;
+}
