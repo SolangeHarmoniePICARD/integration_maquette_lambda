@@ -46,6 +46,14 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url("img/bg-1.jpg");
 }
 
+#food-bg-2{
+  background-image: url("img/food-bg-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 0px;
+}
+
 .img-contain{
   object-fit: contain;
   max-width: 100%;
@@ -76,4 +84,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #btnTop:hover {
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.text-block{
+  background-color: rgba(0, 0, 0, 0.8);
 }
