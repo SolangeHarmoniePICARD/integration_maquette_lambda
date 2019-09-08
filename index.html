@@ -12,35 +12,51 @@
 </head>
 <body>
   <header class="min-vh-100">
-    <nav class="navbar navbar-expand-lg navbar-dark container">
-      <a class="navbar-brand ml-5" href="#">
-        <img src="img/logo.png" alt="logo lambda">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburgerButton" aria-controls="hamburgerButton" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse navbar-brand" id="hamburgerButton">
-        <ul class="navbar-nav mr-5 ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Reservations</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+    <section id="menu">
+      <nav class="navbar navbar-expand-lg navbar-dark container p-0">
+        <a class="navbar-brand" href="#">
+          <img id="logo" src="img/logo-transparent.png" alt="logo lambda">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburgerButton" aria-controls="hamburgerButton" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-brand" id="hamburgerButton">
+          <ul class="navbar-nav mr-5 ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white font-weight-bold" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-weight-bold ml-3" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-weight-bold ml-3" href="#">Reservations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-weight-bold ml-3" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-weight-bold ml-3" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-weight-bold ml-3" href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-weight-bold" href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-weight-bold" href="#"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <section class="container p-5 mt-5 text-center">
+      <h1 id="header-title" class="display-1">the right ingredients<br>for the right food</h1>
+      <img class="mt-4" src="img/decor-1-big-white.png" alt="decor-1">
+      <div class="display-2">
+        <button type="button" class="btn btn-lg btn-outline-light rounded-0 text-uppercase m-2 p-2">Book a table</button>
+        <button type="button" class="btn btn-lg btn-outline-light rounded-0 text-uppercase border-0 m-2 p-2" id="see-the-menu">See the menu</button>
       </div>
-    </nav>
-    <section class="container p-5 text-center">
-      <h1 class="display-1 text-white">the right ingredients<br>for the right food</h1>
     </section>
 
 
